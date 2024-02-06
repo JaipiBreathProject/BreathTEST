@@ -701,12 +701,12 @@ function getVLESSConfig(userIDs, hostName) {
 	let header = [];
 	const sublink = `https://${hostName}/sub/${userIDArray[0]}?format=clash`
 	const clash_link = `https://api.v1.mk/sub?target=clash&url=${encodeURIComponent(sublink)}&insert=false&emoji=true&list=false&tfo=false&scv=true&fdn=false&sort=false&new_name=true`;
-	header.push(`\n<p align="center"><img src="https://cloudflare-ipfs.com/ipfs/bafybeigd6i5aavwpr6wvnwuyayklq3omonggta4x2q7kpmgafj357nkcky" style="margin-bottom: -50px;">`);
+	header.push(`\n<p align="center"><img src="https://i.postimg.cc/rFTRsK8h/No-bg.png" style="margin-bottom: -50px;">`);
 	header.push(`\n<b style=" font-size: 15px;" >Welcome! AKUN PREMIUM VLESS GOOGLE CLOUD BY JAIPI BREATH</b>\n`);
 	header.push(`<b style=" font-size: 15px;" >Gunakan Internet Dengan Bijak</b>\n`);
-	header.push(`\n<a href="https://github.com/JaipiBreathProject/Jaipi_Breath_Network" target="_blank">Jaipi Breath - https://github.com/JaipiBreathProject/Jaipi_Breath_Network</a>\n`);
+	header.push(`\n<a href="https://github.com/JaipiBreathProject/Jaipi_Breath_Network" target="_blank">Jaipi Breath - Github</a>\n`);
 	header.push(`\n<iframe src="https://ghbtns.com/github-btn.html?user=USERNAME&repo=REPOSITORY&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>\n\n`.replace(/USERNAME/g, "3Kmfi6HP").replace(/REPOSITORY/g, "EDtunnel"));
-	header.push(`<a href="//${hostName}/sub/${userIDArray[0]}" target="_blank">VLESS 节点订阅连接</a>\n<a href="clash://install-config?url=${encodeURIComponent(clash_link)}" target="_blank">Clash for Windows 节点订阅连接</a>\n<a href="${clash_link}" target="_blank">Clash 节点订阅连接</a>\n<a href="https://sub.xf.free.hr/auto?host=${hostName}&uuid=${userIDArray[0]}" target="_blank">优选IP自动节点订阅</a></p>\n`);
+	header.push(`<a href="//${hostName}/sub/${userIDArray[0]}" target="_blank">Format Akun Vless</a>\n<a href="clash://install-config?url=${encodeURIComponent(clash_link)}" target="_blank">Clash for Windows</a>\n<a href="${clash_link}" target="_blank">Format Clash</a>\n<a href="https://sub.xf.free.hr/auto?host=${hostName}&uuid=${userIDArray[0]}" target="_blank">Ip Enkripsi</a></p>\n`);
 	header.push(``);
 
 	// Generate output string for each userID
@@ -722,18 +722,18 @@ function getVLESSConfig(userIDs, hostName) {
 	// HTML Head with CSS
 	const htmlHead = `
     <head>
-        <title>EDtunnel: VLESS configuration</title>
+        <title>Breath Tunnel: VLESS konfigurasi</title>
         <meta name="description" content="This is a tool for generating VLESS protocol configurations. Give us a star on GitHub https://github.com/3Kmfi6HP/EDtunnel if you found it useful!">
-		<meta name="keywords" content="EDtunnel, cloudflare pages, cloudflare worker, severless">
+		<meta name="keywords" content="Breath Tunnel, cloudflare pages, cloudflare worker, severless">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta property="og:site_name" content="EDtunnel: VLESS configuration" />
+		<meta property="og:site_name" content="Breath Tunnel: VLESS configuration" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="EDtunnel - VLESS configuration and subscribe output" />
+        <meta property="og:title" content="Breath Tunnel - VLESS configuration and subscribe output" />
         <meta property="og:description" content="Use cloudflare pages and worker severless to implement vless protocol" />
         <meta property="og:url" content="https://${hostName}/" />
         <meta property="og:image" content="https://api.qrserver.com/v1/create-qr-code/?size=500x500&data=${encodeURIComponent(`vless://${userIDs.split(',')[0]}@${hostName}${commonUrlPart}`)}" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="EDtunnel - VLESS configuration and subscribe output" />
+        <meta name="twitter:title" content="Breath Tunnel - VLESS configuration and subscribe output" />
         <meta name="twitter:description" content="Use cloudflare pages and worker severless to implement vless protocol" />
         <meta name="twitter:url" content="https://${hostName}/" />
         <meta name="twitter:image" content="https://cloudflare-ipfs.com/ipfs/bafybeigd6i5aavwpr6wvnwuyayklq3omonggta4x2q7kpmgafj357nkcky" />
