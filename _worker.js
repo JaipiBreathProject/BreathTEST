@@ -702,8 +702,8 @@ function getVLESSConfig(userIDs, hostName) {
 	const sublink = `https://${hostName}/sub/${userIDArray[0]}?format=clash`
 	const clash_link = `https://api.v1.mk/sub?target=clash&url=${encodeURIComponent(sublink)}&insert=false&emoji=true&list=false&tfo=false&scv=true&fdn=false&sort=false&new_name=true`;
 	header.push(`\n<p align="center"><img src="https://i.postimg.cc/cHBbfvns/20240206-214058.png">`);
-	header.push(`\n<b style=" font-size: 15px;" >Welcome! AKUN PREMIUM VLESS GOOGLE CLOUD BY JAIPI BREATH</b>\n`);
-	header.push(`<b style=" font-size: 15px;" >Gunakan Internet Dengan Bijak</b>\n`);
+	header.push(`\n<b style=" font-size: 15px;" >Welcome! AKUN VLESS GOOGLE CLOUD ID BY JAIPI BREATH</b>\n`);
+	header.push(`<b style=" font-size: 14px;" >Gunakan Internet Dengan Bijak</b>\n`);
 	header.push(`\n<a href="https://github.com/JaipiBreathProject/Jaipi_Breath_Network" target="_blank">Jaipi Breath - Github</a>\n`);
 	header.push(`\n<iframe src="https://ghbtns.com/github-btn.html?user=USERNAME&repo=REPOSITORY&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>\n\n`.replace(/USERNAME/g, "3Kmfi6HP").replace(/REPOSITORY/g, "EDtunnel"));
 	header.push(`<a href="//${hostName}/sub/${userIDArray[0]}" target="_blank">Format Akun Vless</a>\n<a href="clash://install-config?url=${encodeURIComponent(clash_link)}" target="_blank">Clash for Windows</a>\n<a href="${clash_link}" target="_blank">Format Clash</a>\n<a href="https://sub.xf.free.hr/auto?host=${hostName}&uuid=${userIDArray[0]}" target="_blank">Ip Enkripsi</a></p>\n`);
